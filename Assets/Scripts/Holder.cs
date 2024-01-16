@@ -227,7 +227,7 @@ public class Holder : MonoBehaviour
     
         list.ForEach(l=>AddLiquid(l.groupId,l.value));
         PendingPoint = transform.position + 0.5f * Vector3.up;
-        OriginalPoint = transform.position ;
+        OriginalPoint = transform.position;
         Initialized = true;
     }
 

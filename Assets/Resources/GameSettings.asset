@@ -18,15 +18,15 @@ MonoBehaviour:
     removeAdsId: com.dotmob.removeads
   _adsSettings:
     iosAdmobSetting:
-      enable: 1
-      bannerId: ca-app-pub-3940256099942544/6300978111
-      interstitialId: ca-app-pub-3940256099942544/4411468910
-      admobRewardedId: ca-app-pub-3940256099942544/1712485313
-    androidAdmobSetting:
-      enable: 1
+      enable: 0
       bannerId: ca-app-pub-3940256099942544/6300978111
       interstitialId: ca-app-pub-3940256099942544/1033173712
       admobRewardedId: ca-app-pub-3940256099942544/5224354917
+    androidAdmobSetting:
+      enable: 1
+      bannerId: ca-app-pub-8637379397106257/9787776947
+      interstitialId: ca-app-pub-8637379397106257/7505228537
+      admobRewardedId: ca-app-pub-8637379397106257/5848531935
     minAndMaxGameOversBetweenInterstitialAds: {x: 0, y: 1}
   _privatePolicySetting:
     enable: 1
